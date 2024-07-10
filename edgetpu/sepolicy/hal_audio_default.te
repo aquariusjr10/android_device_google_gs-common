@@ -16,3 +16,5 @@ get_prop(hal_audio_default, vendor_edgetpu_runtime_prop)
 
 # Allow DMA Buf access.
 allow hal_audio_default dmabuf_system_heap_device:chr_file r_file_perms;
+
+

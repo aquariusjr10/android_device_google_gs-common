@@ -1,3 +1,4 @@
 allow hal_graphics_composer_default dump_display:fifo_file { append write };
 allow hal_graphics_composer_default dump_display:fd use;
+allow hal_graphics_composer_default vendor_log_file:dir search;
 
